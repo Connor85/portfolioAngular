@@ -44,7 +44,7 @@ html, body, section, .container {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 2em;
-    border: 2px solid #fff;
+    border: 2px solid #D88163;
     border-left: 0;
     border-right: 0;
     font-family: 'Lato', sans-serif;
@@ -93,5 +93,5 @@ a:after {
 
 a:hover:after {
     width: 100%;
-    background: #fff;
+    background: #D88163;
 }

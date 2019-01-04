@@ -5,3 +5,29 @@ nav {
 ul {
     margin-left: auto;
 }
+
+a {
+    display: inline-block;
+    padding: 20px 0 3px 0;
+    position: relative;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+a:hover:after {
+    width: 100%;
+    background: #D88163;
+}
