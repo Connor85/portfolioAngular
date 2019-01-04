@@ -1,0 +1,135 @@
+h3 {
+    text-align: center
+}
+
+.code, .design {
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    margin-left: 20px;
+}
+
+ul {
+    margin-left: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+}
+
+.personal-logo {
+    height: 30vh;
+    background: #D88163;
+}
+
+h1 {
+    text-align: center;
+    padding: 3%;
+}
+
+.info {
+    margin-bottom: 3%;
+}
+
+.summary {
+    margin: 5% auto;
+    text-align: center;
+}
+
+.info.subtitle.work {
+    margin-top: 5%;
+}
+
+.who-am-i {
+    font-size: 25px;
+    position: relative;
+    bottom: 5px;
+}
+
+.subtitle {
+    margin: 0 0 2em 0;
+}
+
+.work {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.work span {
+    display: inline-block;
+    position: relative;
+}
+
+.work span:before, .work span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    top: 0;
+    width: 100%;
+}
+
+.work span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.work span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.amp {
+    margin: 0 0 0.25em 0;
+}
+
+.work span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.work-img {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+.img-container {
+    margin: 1em;
+}
+
+.box-shadow-transition img {
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
+
+.box-shadow-below img {
+    -webkit-box-shadow: 0 8px 12px -6px black;
+    -moz-box-shadow: 0 8px 12px -6px black;
+    box-shadow: 0 8px 12px -6px black;
+}
+
+.box-shadow-below-hover img:hover {
+    -webkit-box-shadow: 0 12px 18px -6px black;
+    -moz-box-shadow: 0 12px 18px -6px black;
+    box-shadow: 0 12px 18px -6px black;
+}
+
+.col-md-4 {
+    opacity: .7;
+}
+
+.col-md-4:hover {
+    opacity: 1;
+}
