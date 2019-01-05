@@ -1,5 +1,6 @@
 #content {
     margin-top: 60px;
+    margin-bottom: 20vh;
 }
 
 h1 {
@@ -21,6 +22,7 @@ h1 {
     width: 200px;
     height: 350px;
     width: 100%;
+    background: #666666;
 }
 
 img.logo-img {
@@ -34,4 +36,40 @@ img.logo-img {
 .skill-name {
     text-align: center;
     vertical-align: middle;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.image-card .skill-name {
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.image-card:hover .skill-name {
+    visibility: visible;
+}
+
+.grid .image-card:hover {
+    background: #F0FFF0;
+    border: 1px solid #D88163
+}
+
+.box-shadow-transition {
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
+
+.box-shadow-below {
+    -webkit-box-shadow: 0 8px 12px -6px black;
+    -moz-box-shadow: 0 8px 12px -6px black;
+    box-shadow: 0 8px 12px -6px black;
+}
+
+.box-shadow-below-hover:hover {
+    -webkit-box-shadow: 0 12px 18px -6px black;
+    -moz-box-shadow: 0 12px 18px -6px black;
+    box-shadow: 0 12px 18px -6px black;
 }
