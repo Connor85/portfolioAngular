@@ -20,7 +20,7 @@ h1 {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     width: 200px;
-    height: 350px;
+    height: 300px;
     width: 100%;
     background: #666666;
 }
@@ -52,7 +52,6 @@ img.logo-img {
 
 .grid .image-card:hover {
     background: #F0FFF0;
-    border: 1px solid #D88163
 }
 
 .box-shadow-transition {
