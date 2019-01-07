@@ -24,6 +24,10 @@ h3 {
     width: 100%;
 }
 
+.col-md-4 img {
+    background: #353A40;
+}
+
 img {
     padding: 2em;
     display: block;
@@ -37,6 +41,10 @@ img {
     padding: 1.5em;
     border: 1px solid lightgray;
     background: #F0FFF0;
+}
+
+.col-md-7 {
+    margin: auto;
 }
 
 .traveling {
