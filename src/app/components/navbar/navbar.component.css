@@ -14,6 +14,7 @@ a {
     text-decoration: none;
     letter-spacing: 1px;
     font-family: 'Lato', sans-serif;
+    margin-bottom: 5px;
 }
 
 a:after {
@@ -29,4 +30,8 @@ a:after {
 a:hover:after {
     width: 100%;
     background: #D88163;
+}
+
+a.active {
+    border-bottom: 3px solid #D88163;
 }
