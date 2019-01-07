@@ -4,7 +4,6 @@ import { SplashComponent } from "./components/splash/splash.component";
 import { HomeComponent } from "./components/home/home.component";
 import { SkillsComponent } from "./components/skills/skills.component";
 import { AboutComponent } from "./components/about/about.component";
-import { ResumeComponent } from "./components/resume/resume.component";
 
 const appRoutes: Routes = [
   {
@@ -22,10 +21,6 @@ const appRoutes: Routes = [
   {
     path: "about",
     component: AboutComponent
-  },
-  {
-    path: "resume",
-    component: ResumeComponent
   }
 ];
 

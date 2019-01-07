@@ -8,8 +8,7 @@ import { HomeComponent } from "./components/home/home.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { SkillsComponent } from "./components/skills/skills.component";
 import { AboutComponent } from "./components/about/about.component";
-import { FooterComponent } from './components/footer/footer.component';
-import { ResumeComponent } from './components/resume/resume.component';
+import { FooterComponent } from "./components/footer/footer.component";
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import { ResumeComponent } from './components/resume/resume.component';
     NavbarComponent,
     SkillsComponent,
     AboutComponent,
-    FooterComponent,
-    ResumeComponent
+    FooterComponent
   ],
   imports: [BrowserModule, routing],
   providers: [],

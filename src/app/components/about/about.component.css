@@ -1,0 +1,62 @@
+.about-container {
+    margin: 120px auto;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    color: #36454F;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.header {
+    margin-bottom: 1em;
+}
+
+.image-card {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+img {
+    padding: 2em;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.row {
+    margin: 2em 0px;
+    padding: 1.5em;
+    border: 1px solid lightgray;
+    background: #F0FFF0;
+}
+
+.traveling {
+    border-radius: 15px 50px;
+}
+
+.hobbies {
+    border-radius: 50px 15px;
+    margin-left: auto;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed>li {
+    text-indent: -5px;
+}
+
+ul.dashed>li:before {
+    content: "-";
+    text-indent: -5px;
+}
