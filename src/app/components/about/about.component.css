@@ -3,7 +3,9 @@
 }
 
 h1 {
-    font-size: 55px;
+    text-align: center;
+    margin: 3em;
+    text-decoration: underline;
 }
 
 h2 {
