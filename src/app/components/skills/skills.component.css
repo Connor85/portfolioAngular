@@ -72,3 +72,8 @@ img.logo-img {
     -moz-box-shadow: 0 12px 18px -6px black;
     box-shadow: 0 12px 18px -6px black;
 }
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}

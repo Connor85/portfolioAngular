@@ -27,7 +27,6 @@ img {
 }
 
 .personal-logo {
-    margin-top: 60px;
     height: 30vh;
     background: #D88163;
 }
@@ -138,4 +137,3 @@ h1 {
 .work-img:hover {
     opacity: 1;
 }
-
